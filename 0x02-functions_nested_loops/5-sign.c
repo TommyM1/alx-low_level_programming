@@ -9,24 +9,24 @@
  */
 int print_sign(int n)
 {
-    if (n > 0)
-    {
-        _putchar('+');
-        return 1;
-    }
-    else if (n == 0)
-    {
-        _putchar('0');
-        return 0;
-    }
-    else if (n < 0)
-    {
-        _putchar('-');
-        return -1;
-    }
+	if (n > 0)
+	{
+		_putchar('+');
+		return (1);
+	}
+	else if (n == 0)
+	{
+		_putchar('0');
+		return (0);
+	}
+	else if (n < 0)
+	{
+		_putchar('-');
+		return (-1);
+	}
 
 	/* This return statement will handle the case when none of the if-else conditions are met.
-	* You can choose the appropriate value to return here based on your requirements.
-	* For example, returning 0 here to indicate an error or undefined state. */
- return 0;
+	 * You can choose the appropriate value to return here based on your requirements.
+	 * For example, returning 0 here to indicate an error or undefined state. */
+	return (0);
 }
