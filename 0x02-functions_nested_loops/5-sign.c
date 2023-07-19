@@ -25,8 +25,8 @@ int print_sign(int n)
         return -1;
     }
 
-/* This return statement will handle the case when none of the if-else conditions are met.
-* You can choose the appropriate value to return here based on your requirements.
-* For example, returning 0 here to indicate an error or undefined state. */
+	/* This return statement will handle the case when none of the if-else conditions are met.
+	* You can choose the appropriate value to return here based on your requirements.
+	* For example, returning 0 here to indicate an error or undefined state. */
  return 0;
 }
